@@ -1,0 +1,19 @@
+{
+  "name": "transcribe-audio",
+  "description": "Transcribe a local audio file (mp3/wav/m4a/…) to text using the Soniox async speech-to-text API, with speaker diarization and Hebrew/English language identification.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Juda Barnes"
+  },
+  "homepage": "https://github.com/JudaB/ai-transcribe-skill",
+  "repository": "https://github.com/JudaB/ai-transcribe-skill",
+  "license": "MIT",
+  "keywords": [
+    "transcription",
+    "speech-to-text",
+    "soniox",
+    "audio",
+    "diarization",
+    "hebrew"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ai-transcribe-skill",
+  "description": "Audio-to-text transcription for Claude Code via the Soniox async speech-to-text API, with speaker diarization and Hebrew/English language identification.",
+  "owner": {
+    "name": "Juda Barnes"
+  },
+  "plugins": [
+    {
+      "name": "transcribe-audio",
+      "description": "Transcribe a local audio file (mp3/wav/m4a/…) to text using the Soniox async speech-to-text API, with speaker diarization and Hebrew/English language identification.",
+      "author": {
+        "name": "Juda Barnes"
+      },
+      "category": "productivity",
+      "source": "./",
+      "homepage": "https://github.com/JudaB/ai-transcribe-skill"
+    }
+  ]
+}
