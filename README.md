@@ -26,7 +26,7 @@ directly:
 
 ```bash
 git clone https://github.com/JudaB/ai-transcribe-skill.git /tmp/ai-transcribe-skill
-cp -r /tmp/ai-transcribe-skill/skills/transcribe-audio ~/.claude/skills/transcribe-audio
+cp -r /tmp/ai-transcribe-skill/plugins/transcribe-audio/skills/transcribe-audio ~/.claude/skills/transcribe-audio
 ```
 
 Either way, provide a Soniox API key (see [Setup](#setup)).
@@ -60,7 +60,7 @@ Provide your Soniox API key in any one of these ways (checked in this order):
 ## Usage as a standalone script
 
 ```bash
-python skills/transcribe-audio/scripts/transcribe.py "path/to/audio.mp3"
+python plugins/transcribe-audio/skills/transcribe-audio/scripts/transcribe.py "path/to/audio.mp3"
 ```
 
 ### Options

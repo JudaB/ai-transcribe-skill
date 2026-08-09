@@ -13,7 +13,7 @@
         "name": "Juda Barnes"
       },
       "category": "productivity",
-      "source": "./",
+      "source": "./plugins/transcribe-audio",
       "homepage": "https://github.com/JudaB/ai-transcribe-skill"
     }
   ]
