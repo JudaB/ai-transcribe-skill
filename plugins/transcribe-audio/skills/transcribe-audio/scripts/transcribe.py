@@ -68,9 +68,12 @@ def resolve_key(args):
             if k:
                 return k
     sys.exit(
-        "No Soniox API key found. Set $SONIOX_API_KEY, pass --key, or create a key "
-        "file at ~/.claude/skills/transcribe-audio/soniox.key (get a key at "
-        "https://console.soniox.com -> API Keys)."
+        "No Soniox API key found. Provide it in any one of these ways:\n"
+        "  1. Set the SONIOX_API_KEY environment variable\n"
+        "  2. Pass --key <KEY> (or --key-file <path>)\n"
+        "  3. Create a key file at ~/.soniox.key\n"
+        "  4. Create a key file at ~/.claude/skills/transcribe-audio/soniox.key\n"
+        "Get a key at https://console.soniox.com -> API Keys."
     )
 
 
