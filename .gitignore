@@ -1,0 +1,15 @@
+# Never commit secrets
+soniox.key
+*.key
+.env
+
+# Transcript / audio outputs
+*-soniox.json
+*-speakers.txt
+*.mp3
+*.wav
+*.m4a
+
+# Python
+__pycache__/
+*.pyc
