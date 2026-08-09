@@ -1,13 +1,6 @@
 ---
 name: transcribe-audio
-description: >-
-  Transcribe a local audio file (mp3/wav/m4a/…) to text using the Soniox async
-  speech-to-text API, with speaker diarization and Hebrew/English language
-  identification. Use this whenever the user wants to transcribe, get a
-  transcript of, "write out", or convert to text any audio or voice recording,
-  lecture, lesson, meeting, interview, or call — including Hebrew audio — even if
-  they don't say the word "Soniox". Also use it when they point at an .mp3/.wav/
-  .m4a file and ask what's said in it or want speaker-labeled text.
+description: "Transcribe a local audio file (mp3/wav/m4a) to text using the Soniox async speech-to-text API, with speaker diarization and Hebrew/English language identification. Use this whenever the user wants to transcribe, get a transcript of, write out, or convert to text any audio or voice recording, lecture, lesson, meeting, interview, or call (including Hebrew audio) even if they don't say the word Soniox. Also use it when they point at an .mp3/.wav/.m4a file and ask what's said in it or want speaker-labeled text."
 ---
 
 # Transcribe audio (Soniox)
